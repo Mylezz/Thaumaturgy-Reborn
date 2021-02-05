@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="all rights reserved"
+
+[[mods]]
+modId="thaumaturgyreborn"
+version="${file.jarVersion}"
+displayName="Thaumaturgy RE:Born"
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+#logoFile="examplemod.png" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+#authors="Love, Cheese and small house plants" #optional
+description='''
+    By: Mylez_!
+    '''
+
+[[dependencies.thaumaturgyreborn]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumaturgyreborn]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
