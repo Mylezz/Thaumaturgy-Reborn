@@ -26,7 +26,7 @@ public class ModTags {
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
 
         public static final ITag.INamedTag<Item> INGOTS_THAUMIUM = forge("ingots/thaumium");
-        public static final ITag.INamedTag<Item> NUGGET_THAUMIUM = forge("nugget/thaumium");
+        public static final ITag.INamedTag<Item> NUGGETS_THAUMIUM = forge("nugget/thaumium");
 
         private static ITag.INamedTag<Item> forge(String path) {
             return ItemTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
