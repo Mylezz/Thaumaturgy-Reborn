@@ -3,5 +3,7 @@
   "item.thaumaturgyreborn.thaumium_nugget": "Thaumium Nugget",
   "block.thaumaturgyreborn.thaumium_block": "Thaumium block",
   "block.thaumaturgyreborn.thaumium_ore": "Thaumium ore",
-  "item.thaumaturgyreborn.lordpopo_ingot": "lordpopo"
+  "item.thaumaturgyreborn.lordpopo_ingot": "Lord Popo",
+  "item.thaumaturgyreborn.thaumiumpick_tooltiem": "Thaumium Pickaxe",
+  "ItemGroup.thaumaturgyreborn": "Thaumaturgy Re:Born"
 }
