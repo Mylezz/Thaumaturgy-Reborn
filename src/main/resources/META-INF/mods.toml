@@ -9,10 +9,10 @@ displayName="Thaumaturgy RE:Born"
 #updateJSONURL="http://myurl.me/" #optional
 #displayURL="http://example.com/" #optional
 #logoFile="examplemod.png" #optional
-#credits="Thanks for this example mod goes to Java" #optional
-#authors="Love, Cheese and small house plants" #optional
+credits="Thanks Autistic" #optional
+authors="By: Mylez_! Manny_ and Zeb_" #optional
 description='''
-    By: Mylez_!
+    Inspired by DnD and Thaumcraft
     '''
 
 [[dependencies.thaumaturgyreborn]]
