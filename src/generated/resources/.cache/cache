@@ -2,6 +2,7 @@ f061d42ff6640fc208b97ac301f59ed86e197229 assets/thaumaturgyreborn/blockstates/th
 a4a0e98fd5d571c284b0b1e711a934755db9b70f assets/thaumaturgyreborn/blockstates/thaumium_ore.json
 1f297acf18c6d4c86d0cf914d8d87a8c6b76e536 assets/thaumaturgyreborn/models/block/thaumium_block.json
 09b9494ecb7e06401f3d649e71511e0320ca0b0c assets/thaumaturgyreborn/models/block/thaumium_ore.json
+1d25246e0e649626c150c9f0facda33dbcdfcf11 assets/thaumaturgyreborn/models/item/lordpopo_ingot.json
 23f98642b81279c2e2a813fdb736b09bfa3f8b34 assets/thaumaturgyreborn/models/item/thaumium_block.json
 f6b3226217ce73fc8ba4a47e0dffb552bf069485 assets/thaumaturgyreborn/models/item/thaumium_ingot.json
 aa758ba143b52ca64c50f501e714557ba6846a77 assets/thaumaturgyreborn/models/item/thaumium_nugget.json
@@ -10,7 +11,8 @@ aa758ba143b52ca64c50f501e714557ba6846a77 assets/thaumaturgyreborn/models/item/th
 bfdf5e183d5b29006a3d01abea711206ba477546 data/forge/tags/blocks/ores/thaumium.json
 28c1d20f9e9110d6e94e8258d97ebc323141ef6b data/forge/tags/blocks/storage_blocks.json
 52837d2308532188fc20240b947338e5639dda6d data/forge/tags/blocks/storage_blocks/thaumium.json
-821d86b229914274650c82ea563679c8ca3b8ac4 data/forge/tags/items/ingots.json
+b1c0642071204d69a553574a65270a2cf9926a7d data/forge/tags/items/ingots.json
+59f7a8f5f15668ce443708deed362806c9ab2ff1 data/forge/tags/items/ingots/lordpopo.json
 a95600b89a40b60b59982ee2df76186335cb862e data/forge/tags/items/ingots/thaumium.json
 caa9cd0c2f18c5a390ed7fabed2fcac9531e53ff data/forge/tags/items/nugget/thaumium.json
 0345a964d7a168e46937e2cd6098d4a19676233b data/forge/tags/items/nuggets.json

@@ -25,5 +25,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         getOrCreateBuilder(Tags.Items.INGOTS).addTag(ModTags.Items.INGOTS_THAUMIUM);
         getOrCreateBuilder(ModTags.Items.NUGGETS_THAUMIUM).add(ModItems.THAUMIUM_NUGGET.get());
         getOrCreateBuilder(Tags.Items.NUGGETS).addTag(ModTags.Items.NUGGETS_THAUMIUM);
+        getOrCreateBuilder(ModTags.Items.INGOTS_LORDPOPO).add(ModItems.LORDPOPO_INGOT.get());
+        getOrCreateBuilder(Tags.Items.INGOTS).addTag(ModTags.Items.INGOTS_LORDPOPO);
     }
 }

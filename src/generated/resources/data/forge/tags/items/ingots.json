@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#forge:ingots/thaumium"
+    "#forge:ingots/thaumium",
+    "#forge:ingots/lordpopo"
   ]
 }
