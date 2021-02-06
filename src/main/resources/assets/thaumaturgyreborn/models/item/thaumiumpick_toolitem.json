@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench by Mylez_",
+	"credit": "Mylez_",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "thaumaturgyreborn:item/thaumiumpick_toolitem",
-		"particle": "thaumaturgyreborn:item/thaumiumpick_toolitem"
+		"0": "thaumaturgyreborn:textures/item/thaumiumpick_toolitem",
+		"particle": "thaumaturgyreborn:particle/item/thaumiumpick_toolitem"
 	},
 	"elements": [
 		{
@@ -216,7 +216,7 @@
 	},
 	"groups": [
 		{
-			"name": "base handle",
+			"name": "base_handle",
 			"origin": [8, 8, 8],
 			"children": [0, 1, 2, 3]
 		},

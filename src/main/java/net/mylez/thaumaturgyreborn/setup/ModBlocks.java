@@ -11,11 +11,14 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 import static net.minecraft.item.ItemGroup.BUILDING_BLOCKS;
+import static net.mylez.thaumaturgyreborn.init.ModTabGroups.MOD_ITEM_GROUP;
 
 public class ModBlocks {
     public static final RegistryObject<Block> THAUMIUM_ORE = register("thaumium_ore", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
     public static final RegistryObject<Block> THAUMIUM_BLOCK = register("thaumium_block", () ->
+            new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
     static void register() {}
 
@@ -26,7 +29,7 @@ public class ModBlocks {
 
     private static <T extends Block> RegistryObject<T> register (String name, Supplier<T> block) {
         RegistryObject<T> ret = registerNoItem(name, block);
-        Registration.ITEMS.register(name,() -> new BlockItem(ret.get(), new Item.Properties().group(BUILDING_BLOCKS)));
+        Registration.ITEMS.register(name,() -> new BlockItem(ret.get(), new Item.Properties().group(MOD_ITEM_GROUP)));
         return ret;
     }
 }

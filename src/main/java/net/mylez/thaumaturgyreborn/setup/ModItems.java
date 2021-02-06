@@ -8,6 +8,8 @@ import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.items.ThaumaturgyItemTier;
 import net.mylez.thaumaturgyreborn.init.ModTabGroups;
 
+import static net.mylez.thaumaturgyreborn.init.ModItems.TOOLITEM;
+
 public class ModItems
 {
     //Ingots
@@ -23,6 +25,9 @@ public class ModItems
 
 
     //Picks
+    public static final RegistryObject<PickaxeItem> TOOLITEM_THAUMIUMPICK = TOOLITEM.register("thaumiumpick_tooltiem",
+        ()-> new PickaxeItem(ThaumaturgyItemTier.THAUMIUM,1, -2.8f,
+                new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
 
 
     static void register() {}

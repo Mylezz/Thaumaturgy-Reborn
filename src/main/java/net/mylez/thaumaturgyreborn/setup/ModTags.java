@@ -18,9 +18,14 @@ public class ModTags extends ModItemTagsProvider {
         super(dataGenerator, blockTagProvider, existingFileHelper);
     }
 
+    //Blocks
     public static final class Blocks {
+        //blocks
+
         public static final ITag.INamedTag<Block> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
+        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_CRUCIBLE = forge("storage_blocks/crucible");
+
 
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
@@ -30,16 +35,22 @@ public class ModTags extends ModItemTagsProvider {
             return BlockTags.makeWrapperTag(new ResourceLocation(ThaumaturgyReborn.MOD_ID, path).toString());
         }
     }
+    //Items
     public static final class Items {
-        //blocks
+        //block items
         public static final ITag.INamedTag<Item> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
+        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_CRUCIBLE = forge("storage_blocks/crucible");
 
 
         //items
         public static final ITag.INamedTag<Item> INGOTS_THAUMIUM = forge("ingots/thaumium");
         public static final ITag.INamedTag<Item> NUGGETS_THAUMIUM = forge("nugget/thaumium");
         public static final ITag.INamedTag<Item> INGOTS_LORDPOPO = forge("ingots/lordpopo");
+
+        //Tools
+        public static final ITag.INamedTag<Item> TOOLITEM_THAUMIUMPICK = forge("thaumiumpick_tooltiem");
+
         private static ITag.INamedTag<Item> forge(String path) {
             return ItemTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
         }
@@ -49,7 +60,11 @@ public class ModTags extends ModItemTagsProvider {
         }
 
     }
-        //picks
+
+
+
+
+
 
 
 

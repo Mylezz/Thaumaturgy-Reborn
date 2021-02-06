@@ -8,15 +8,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.items.ThaumaturgyItemTier;
 
-public class ModItems {
+public final class ModItems {
 
-    public static final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> TOOLITEM =
             DeferredRegister.create(ForgeRegistries.ITEMS, ThaumaturgyReborn.MOD_ID);
 
 
 
     //Picks
-    public static final RegistryObject<PickaxeItem> THAUMIUM_PICK = ITEMS.register("thaumium_pick",
-            ()-> new PickaxeItem(ThaumaturgyItemTier.THAUMIUM,1, -2.8f,
-                    new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
+
 }

@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 
+import static net.mylez.thaumaturgyreborn.init.ModItems.TOOLITEM;
+
 
 public class Registration {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ThaumaturgyReborn.MOD_ID);
@@ -19,6 +21,7 @@ public class Registration {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
+        TOOLITEM.register(modEventBus);
 
 
 

@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 public enum ThaumaturgyItemTier implements IItemTier
 
 {
-    THAUMIUM(4, 6340, 10.0f, 7.0f, 15, ()->{return Ingredient.fromItems( ModItems.THAUMIUM_INGOT.get()); });
+    THAUMIUM(4, 6340, 14.0f, 7.0f, 15, ()->{return Ingredient.fromItems( ModItems.THAUMIUM_INGOT.get()); });
 
     private final int harvestLevel;
     private final int maxUses;
