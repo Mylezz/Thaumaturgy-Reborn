@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumaturgyreborn:thaumium_nugget"
+    }
+  },
+  "result": {
+    "item": "thaumaturgyreborn:thaumium_ingot",
+    "count": 1
+  }
+}
