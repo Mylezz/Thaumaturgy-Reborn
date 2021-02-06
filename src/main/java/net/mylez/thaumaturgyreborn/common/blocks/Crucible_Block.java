@@ -14,9 +14,9 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.stream.Stream;
 
-public class CrucibleBlock extends BaseHorizontalBlock{
+public class Crucible_Block extends BaseHorizontalBlock{
 
-    public CrucibleBlock(Properties properties) {
+    public Crucible_Block(Properties properties) {
         super(properties);
         runCalculation(Stream.of(
                 Block.makeCuboidShape(0, 3, 0, 2, 16, 16),
