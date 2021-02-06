@@ -2,15 +2,13 @@ package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ToolItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 
-import static net.mylez.thaumaturgyreborn.init.ModItems.TOOLITEM;
+import static net.mylez.thaumaturgyreborn.init.ItemInit.TOOLITEM;
 
 
 public class Registration {

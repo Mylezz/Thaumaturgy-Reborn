@@ -1,14 +1,12 @@
 package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.PickaxeItem;
 import net.minecraftforge.fml.RegistryObject;
-import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.items.ThaumaturgyItemTier;
 import net.mylez.thaumaturgyreborn.init.ModTabGroups;
 
-import static net.mylez.thaumaturgyreborn.init.ModItems.TOOLITEM;
+import static net.mylez.thaumaturgyreborn.init.ItemInit.TOOLITEM;
 
 public class ModItems
 {

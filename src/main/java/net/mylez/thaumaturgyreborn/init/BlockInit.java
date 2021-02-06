@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.blocks.Crucible_Block;
 
-public class ModBlocks {
+public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             ThaumaturgyReborn.MOD_ID);
 

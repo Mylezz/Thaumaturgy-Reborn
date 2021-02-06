@@ -8,7 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.items.ThaumaturgyItemTier;
 
-public final class ModItems {
+public final class ItemInit {
 
     public static final DeferredRegister<Item> TOOLITEM =
             DeferredRegister.create(ForgeRegistries.ITEMS, ThaumaturgyReborn.MOD_ID);
