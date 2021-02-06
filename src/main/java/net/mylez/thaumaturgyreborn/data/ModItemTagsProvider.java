@@ -41,7 +41,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         getOrCreateBuilder(Tags.Items.INGOTS).addTag(ModTags.Items.INGOTS_LORDPOPO);
 
         //tools
-        getOrCreateBuilder(ModTags.Items.TOOLITEM_THAUMIUMPICK).add(ModItems.TOOLITEM_THAUMIUMPICK.get());
+
 
 
 

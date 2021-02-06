@@ -23,8 +23,7 @@ public class ModItems
 
 
     //Picks
-    public static final RegistryObject<Item> TOOLITEM_THAUMIUMPICK = Registration.ITEMS.register("thaumiumpick_tooltiem", ()->
-            new Item(new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
+
 
 
     static void register() {}
