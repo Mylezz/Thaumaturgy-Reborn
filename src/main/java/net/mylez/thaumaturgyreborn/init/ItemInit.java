@@ -1,12 +1,12 @@
 package net.mylez.thaumaturgyreborn.init;
 
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
+import net.mylez.thaumaturgyreborn.common.items.ThaumaturgyItemTier;
+
 
 public final class ItemInit {
 
@@ -20,5 +20,8 @@ public final class ItemInit {
 
 
     //Picks
+    public static final RegistryObject<PickaxeItem> TOOLITEM_THAUMIUMPICK = TOOLITEM.register("thaumiumpick_tooltiem",
+            ()-> new PickaxeItem(ThaumaturgyItemTier.THAUMIUM,1, -2.8f,
+                    new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
 
 }

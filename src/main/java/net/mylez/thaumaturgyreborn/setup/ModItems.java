@@ -23,9 +23,8 @@ public class ModItems
 
 
     //Picks
-    public static final RegistryObject<PickaxeItem> TOOLITEM_THAUMIUMPICK = TOOLITEM.register("thaumiumpick_tooltiem",
-        ()-> new PickaxeItem(ThaumaturgyItemTier.THAUMIUM,1, -2.8f,
-                new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
+    public static final RegistryObject<Item> TOOLITEM_THAUMIUMPICK = Registration.ITEMS.register("thaumiumpick_tooltiem", ()->
+            new Item(new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
 
 
     static void register() {}

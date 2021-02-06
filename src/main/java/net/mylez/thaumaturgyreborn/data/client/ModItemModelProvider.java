@@ -24,7 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         builder(itemGenerated, "thaumium_ingot");
         builder(itemGenerated, "thaumium_nugget");
         builder(itemGenerated, "lordpopo_ingot");
-        builder(itemGenerated, "thaumiumpick_toolitem");
+
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name) {
