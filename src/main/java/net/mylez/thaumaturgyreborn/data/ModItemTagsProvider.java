@@ -25,8 +25,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
 
         //crucible
-        copy(ModTags.Blocks.STORAGE_BLOCKS_CRUCIBLE, ModTags.Items.STORAGE_BLOCKS_CRUCIBLE);
-        copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
+        copy(ModTags.Blocks.BLOCKS_CRUCIBLE, ModTags.Items.BLOCKS_CRUCIBLE);
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
         //ingots
         getOrCreateBuilder(ModTags.Items.INGOTS_THAUMIUM).add(ModItems.THAUMIUM_INGOT.get());

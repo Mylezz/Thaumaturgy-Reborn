@@ -18,8 +18,6 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         getOrCreateBuilder(ModTags.Blocks.ORES_THAUMIUM).add(ModBlocks.THAUMIUM_ORE.get());
         getOrCreateBuilder(Tags.Blocks.ORES).addTag(ModTags.Blocks.ORES_THAUMIUM);
         getOrCreateBuilder(ModTags.Blocks.STORAGE_BLOCKS_THAUMIUM).add(ModBlocks.THAUMIUM_BLOCK.get());
-        getOrCreateBuilder(ModTags.Blocks.STORAGE_BLOCKS_CRUCIBLE).addTag(ModTags.Blocks.STORAGE_BLOCKS_CRUCIBLE);
-        getOrCreateBuilder(Tags.Blocks.STORAGE_BLOCKS).addTag(ModTags.Blocks.STORAGE_BLOCKS_CRUCIBLE);
 
     }
 }

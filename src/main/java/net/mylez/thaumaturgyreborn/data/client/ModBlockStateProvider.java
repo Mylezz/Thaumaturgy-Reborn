@@ -15,7 +15,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.THAUMIUM_BLOCK.get());
         simpleBlock(ModBlocks.THAUMIUM_ORE.get());
-        simpleBlock(ModBlocks.CRUCIBLE_BLOCK.get());
 
     }
 }

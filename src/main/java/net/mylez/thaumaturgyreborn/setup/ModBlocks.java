@@ -10,7 +10,6 @@ import net.minecraftforge.fml.RegistryObject;
 
 import java.util.function.Supplier;
 
-import static net.minecraft.item.ItemGroup.BUILDING_BLOCKS;
 import static net.mylez.thaumaturgyreborn.init.ModTabGroups.MOD_ITEM_GROUP;
 
 public class ModBlocks {

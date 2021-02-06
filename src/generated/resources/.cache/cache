@@ -1,7 +1,5 @@
-215a6d9776495ec0033dad03b89e69df1a0e38dd assets/thaumaturgyreborn/blockstates/crucible_block.json
 f061d42ff6640fc208b97ac301f59ed86e197229 assets/thaumaturgyreborn/blockstates/thaumium_block.json
 a4a0e98fd5d571c284b0b1e711a934755db9b70f assets/thaumaturgyreborn/blockstates/thaumium_ore.json
-de6751e1cee2f1d50d0d9298b04c83c041a8cff2 assets/thaumaturgyreborn/models/block/crucible_block.json
 1f297acf18c6d4c86d0cf914d8d87a8c6b76e536 assets/thaumaturgyreborn/models/block/thaumium_block.json
 09b9494ecb7e06401f3d649e71511e0320ca0b0c assets/thaumaturgyreborn/models/block/thaumium_ore.json
 1c4fb52a821f0fe19db80780852e2397213771e5 assets/thaumaturgyreborn/models/item/crucible_block.json
@@ -13,9 +11,8 @@ aa758ba143b52ca64c50f501e714557ba6846a77 assets/thaumaturgyreborn/models/item/th
 b5ae1f8d76d907ae0050775f99d3069f537f2e7d assets/thaumaturgyreborn/models/item/thaumiumpick_toolitem.json
 6f48055ab73f555437078cffdbc82e3f67afb81c data/forge/tags/blocks/ores.json
 bfdf5e183d5b29006a3d01abea711206ba477546 data/forge/tags/blocks/ores/thaumium.json
-6b344c85383d620686936422947ed152612c5509 data/forge/tags/blocks/storage_blocks.json
-6b344c85383d620686936422947ed152612c5509 data/forge/tags/blocks/storage_blocks/crucible.json
 52837d2308532188fc20240b947338e5639dda6d data/forge/tags/blocks/storage_blocks/thaumium.json
+74700d556ca80c7a1db5fd4efb09c3ddb26cad66 data/forge/tags/items/blocks/crucible.json
 b1c0642071204d69a553574a65270a2cf9926a7d data/forge/tags/items/ingots.json
 59f7a8f5f15668ce443708deed362806c9ab2ff1 data/forge/tags/items/ingots/lordpopo.json
 a95600b89a40b60b59982ee2df76186335cb862e data/forge/tags/items/ingots/thaumium.json
@@ -23,7 +20,7 @@ caa9cd0c2f18c5a390ed7fabed2fcac9531e53ff data/forge/tags/items/nugget/thaumium.j
 0345a964d7a168e46937e2cd6098d4a19676233b data/forge/tags/items/nuggets.json
 6f48055ab73f555437078cffdbc82e3f67afb81c data/forge/tags/items/ores.json
 bfdf5e183d5b29006a3d01abea711206ba477546 data/forge/tags/items/ores/thaumium.json
-b6c39286dd62159c589d2bdf0930c18bbb649b18 data/forge/tags/items/storage_blocks.json
-6b344c85383d620686936422947ed152612c5509 data/forge/tags/items/storage_blocks/crucible.json
+74700d556ca80c7a1db5fd4efb09c3ddb26cad66 data/forge/tags/items/stone.json
+74700d556ca80c7a1db5fd4efb09c3ddb26cad66 data/forge/tags/items/storage_blocks.json
 52837d2308532188fc20240b947338e5639dda6d data/forge/tags/items/storage_blocks/thaumium.json
 99a1f635c7ade3926ebc32ccf4117e68f968e562 data/forge/tags/items/thaumiumpick_tooltiem.json

@@ -24,7 +24,7 @@ public class ModTags extends ModItemTagsProvider {
 
         public static final ITag.INamedTag<Block> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
-        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_CRUCIBLE = forge("storage_blocks/crucible");
+        public static final ITag.INamedTag<Block> BLOCKS_CRUCIBLE = forge("blocks/crucible");
 
 
         private static ITag.INamedTag<Block> forge(String path) {
@@ -40,7 +40,7 @@ public class ModTags extends ModItemTagsProvider {
         //block items
         public static final ITag.INamedTag<Item> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
-        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_CRUCIBLE = forge("storage_blocks/crucible");
+        public static final ITag.INamedTag<Item> BLOCKS_CRUCIBLE = forge("blocks/crucible");
 
 
         //items

@@ -19,8 +19,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BaseHorizontalBlock extends Block {
-    protected static final Map<Direction, VoxelShape> SHAPES = new HashMap<Direction, VoxelShape>();
 
+    protected static final Map<Direction, VoxelShape> SHAPES = new HashMap<Direction, VoxelShape>();
     public static final DirectionProperty HORIZONTAL_FACING = BlockStateProperties.HORIZONTAL_FACING;
 
     public BaseHorizontalBlock(Properties properties) {
@@ -29,6 +29,7 @@ public class BaseHorizontalBlock extends Block {
 
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
         return state.rotate(mirrorIn.toRotation(state.get(HORIZONTAL_FACING)));
