@@ -14,10 +14,16 @@ import java.util.function.Supplier;
 import static net.mylez.thaumaturgyreborn.init.ModTabGroups.MOD_ITEM_GROUP;
 
 public class ModBlocks {
+
+    //ores
     public static final RegistryObject<Block> THAUMIUM_ORE = register("thaumium_ore", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
+    
+    //storage blocks
     public static final RegistryObject<Block> THAUMIUM_BLOCK = register("thaumium_block", () ->
             new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+
+    //CUSTOM BLOCKS
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
     static void register() {}
