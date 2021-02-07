@@ -8,8 +8,9 @@ import net.mylez.thaumaturgyreborn.init.ModTabGroups;
 
 import static net.mylez.thaumaturgyreborn.init.ItemInit.TOOLITEM;
 
-public class ModItems
-{
+public class ModItems {
+    //this class is used to create any custom item that does not use a custom model
+
     //Ingots
     public static final RegistryObject<Item> THAUMIUM_INGOT = Registration.ITEMS.register("thaumium_ingot",()->
             new Item(new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
@@ -19,10 +20,7 @@ public class ModItems
     public static final RegistryObject<Item> THAUMIUM_NUGGET = Registration.ITEMS.register("thaumium_nugget",()->
             new Item(new Item.Properties().group(ModTabGroups.MOD_ITEM_GROUP)));
 
-    //Tools
 
-
-    //Picks
 
 
 
