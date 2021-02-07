@@ -25,6 +25,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
         public static final ITag.INamedTag<Block> BLOCKS_CRUCIBLE = forge("blocks/crucible");
+        public static final ITag.INamedTag<Block> ANCIENT_STONE = forge("blocks/ancient_stone");
 
 
         private static ITag.INamedTag<Block> forge(String path) {
@@ -41,6 +42,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Item> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
         public static final ITag.INamedTag<Item> BLOCKS_CRUCIBLE = forge("blocks/crucible");
+        public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE = forge("blocks/ancient_stone");
 
 
         //items
@@ -50,6 +52,7 @@ public class ModTags extends ModItemTagsProvider {
 
         //Tools
         public static final ITag.INamedTag<Item> TOOLITEM_THAUMIUMPICK = forge("thaumiumpick_tooltiem");
+
 
         private static ITag.INamedTag<Item> forge(String path) {
             return ItemTags.makeWrapperTag(new ResourceLocation("forge", path).toString());

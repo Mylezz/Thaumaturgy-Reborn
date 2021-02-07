@@ -1,3 +1,4 @@
+// This class gives an item a default minecraft item model
 
 package net.mylez.thaumaturgyreborn.data.client;
 
@@ -18,6 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("thaumium_block", modLoc("block/thaumium_block"));
         withExistingParent("thaumium_ore", modLoc("block/thaumium_ore"));
         withExistingParent("crucible_block", modLoc("block/crucible_block"));
+        withExistingParent("ancient_stone", modLoc("block/ancient_stone"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 

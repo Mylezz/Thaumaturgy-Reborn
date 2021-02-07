@@ -1,3 +1,5 @@
+//This class is used to create any block that does not require a custom model
+
 package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.block.AbstractBlock;
@@ -14,17 +16,22 @@ import java.util.function.Supplier;
 import static net.mylez.thaumaturgyreborn.init.ModTabGroups.MOD_ITEM_GROUP;
 
 public class ModBlocks {
-    //This class is used to create any block that does not require a custom model
 
-    //ores
+    // Ores
     public static final RegistryObject<Block> THAUMIUM_ORE = register("thaumium_ore", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
 
-    //storage blocks
+    // Storage blocks
     public static final RegistryObject<Block> THAUMIUM_BLOCK = register("thaumium_block", () ->
             new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
 
-    //CUSTOM BLOCKS
+    // Manny's To Do list from Trello
+    public static final RegistryObject<Block> ANCIENT_STONE = register("ancient_stone", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
+
+
+
+    // CUSTOM BLOCKS - These blocks require custom models
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
     static void register() {}

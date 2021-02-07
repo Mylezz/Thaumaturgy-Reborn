@@ -11,10 +11,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         super(gen, ThaumaturgyReborn.MOD_ID, exFileHelper);
     }
 
+    // Adds default block models to block
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.THAUMIUM_BLOCK.get());
         simpleBlock(ModBlocks.THAUMIUM_ORE.get());
+        simpleBlock(ModBlocks.ANCIENT_STONE.get());
 
     }
 }

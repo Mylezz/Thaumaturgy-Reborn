@@ -28,6 +28,10 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         copy(ModTags.Blocks.BLOCKS_CRUCIBLE, ModTags.Items.BLOCKS_CRUCIBLE);
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
+        //blocks
+        copy(ModTags.Blocks.ANCIENT_STONE, ModTags.Items.BLOCKS_ANCIENT_STONE);
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
         //ingots
         getOrCreateBuilder(ModTags.Items.INGOTS_THAUMIUM).add(ModItems.THAUMIUM_INGOT.get());
         getOrCreateBuilder(Tags.Items.INGOTS).addTag(ModTags.Items.INGOTS_THAUMIUM);
