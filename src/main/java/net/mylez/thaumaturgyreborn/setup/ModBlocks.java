@@ -34,6 +34,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> GREAT_WOOD_PLANKS = register("great_wood_planks", () ->
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SILVER_WOOD_LOG = register("silver_wood_log", () ->
+            new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
 
 
 

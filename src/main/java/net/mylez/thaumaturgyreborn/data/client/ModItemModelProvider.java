@@ -23,6 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("ancient_stone_brick", modLoc("block/ancient_stone_brick"));
         withExistingParent("great_wood_log", modLoc("block/great_wood_log"));
         withExistingParent("great_wood_planks", modLoc("block/great_wood_planks"));
+        withExistingParent("silver_wood_log", modLoc("block/silver_wood_log"));
+
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
