@@ -10,6 +10,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.mylez.thaumaturgyreborn.common.blocks.CrucibleBlock;
+import net.mylez.thaumaturgyreborn.common.blocks.GreatWoodStairs;
 
 import java.util.function.Supplier;
 
@@ -44,7 +45,13 @@ public class ModBlocks {
     // CUSTOM BLOCKS - These blocks require custom models
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+
+
     static void register() {}
+
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerNoItem(String name, Supplier<T> block) {
         return Registration.BLOCKS.register(name, block);

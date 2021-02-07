@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 import net.mylez.thaumaturgyreborn.common.blocks.CrucibleBlock;
+import net.mylez.thaumaturgyreborn.common.blocks.GreatWoodStairs;
 
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
@@ -20,6 +21,7 @@ public class BlockInit {
                     () -> new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.PURPLE)
                     .hardnessAndResistance(15f, 30f).harvestTool(ToolType.PICKAXE).harvestLevel(2)
                     .sound(SoundType.METAL).setRequiresTool()));
+
 
 
 }
