@@ -5,7 +5,9 @@ package net.mylez.thaumaturgyreborn.setup;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -42,9 +44,16 @@ public class ModBlocks {
 
 
 
+    //stairs
+
+    public static final RegistryObject<Block> GREAT_WOOD_STAIRS = register("great_wood_stairs", () ->
+            new StairsBlock(() -> GREAT_WOOD_PLANKS.get().getDefaultState(), Block.Properties.from(GREAT_WOOD_PLANKS.get())));
+
+
     // CUSTOM BLOCKS - These blocks require custom models
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+
 
 
     static void register() {}

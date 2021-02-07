@@ -47,7 +47,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         copy(ModTags.Blocks.SILVER_WOOD_PLANKS, ModTags.Items.BLOCKS_SILVER_WOOD_PLANKS); // Silver Wood Planks - REMEMBER TO CHANGE TO WOOD ITEM IS STONE FOR PLACE HOLDER
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
-        copy(ModTags.Blocks.GREAT_WOOD_STAIRS, ModTags.Items.BLOCKS_GREAT_WOOD_STAIRS);
+        copy(ModTags.Blocks.BLOCKS_GREAT_WOOD_STAIRS, ModTags.Items.BLOCKS_GREAT_WOOD_STAIRS);
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
         //ingots

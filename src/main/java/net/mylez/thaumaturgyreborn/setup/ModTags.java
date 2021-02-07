@@ -31,7 +31,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
         public static final ITag.INamedTag<Block> SILVER_WOOD_LOG = forge("blocks/silver_wood_log");
         public static final ITag.INamedTag<Block> SILVER_WOOD_PLANKS = forge("blocks/silver_wood_planks");
-        public static final ITag.INamedTag<Block> GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
+        public static final ITag.INamedTag<Block> BLOCKS_GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
 
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
