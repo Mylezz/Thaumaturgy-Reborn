@@ -28,6 +28,10 @@ public class ModBlocks {
     // Manny's To Do list from Trello
     public static final RegistryObject<Block> ANCIENT_STONE = register("ancient_stone", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ANCIENT_STONE_BRICK = register("ancient_stone_brick", () ->
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> GREAT_WOOD_LOG = register("great_wood_log", () ->
+            new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
 
 
 

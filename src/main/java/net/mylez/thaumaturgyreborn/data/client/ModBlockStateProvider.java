@@ -17,6 +17,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.THAUMIUM_BLOCK.get());
         simpleBlock(ModBlocks.THAUMIUM_ORE.get());
         simpleBlock(ModBlocks.ANCIENT_STONE.get());
+        simpleBlock(ModBlocks.ANCIENT_STONE_BRICK.get());
+        simpleBlock(ModBlocks.GREAT_WOOD_LOG.get());
 
     }
 }

@@ -29,7 +29,13 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
         //blocks
-        copy(ModTags.Blocks.ANCIENT_STONE, ModTags.Items.BLOCKS_ANCIENT_STONE);
+        copy(ModTags.Blocks.ANCIENT_STONE, ModTags.Items.BLOCKS_ANCIENT_STONE); // Ancient Stone
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
+        copy(ModTags.Blocks.ANCIENT_STONE_BRICK, ModTags.Items.BLOCKS_ANCIENT_STONE_BRICK); // Ancient Stone Brick
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
+        copy(ModTags.Blocks.GREAT_WOOD_LOG, ModTags.Items.BLOCKS_GREAT_WOOD_LOG); // Great Wood Log - REMEMBER TO CHANGE TO WOOD ITEM IS STONE FOR PLACE HOLDER
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
         //ingots

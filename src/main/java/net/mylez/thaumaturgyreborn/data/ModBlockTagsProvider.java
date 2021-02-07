@@ -19,6 +19,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         getOrCreateBuilder(Tags.Blocks.ORES).addTag(ModTags.Blocks.ORES_THAUMIUM);
         getOrCreateBuilder(ModTags.Blocks.STORAGE_BLOCKS_THAUMIUM).add(ModBlocks.THAUMIUM_BLOCK.get());
         getOrCreateBuilder(ModTags.Blocks.ANCIENT_STONE).add(ModBlocks.ANCIENT_STONE.get());
-
+        getOrCreateBuilder(ModTags.Blocks.ANCIENT_STONE_BRICK).add(ModBlocks.ANCIENT_STONE_BRICK.get());
+        getOrCreateBuilder(ModTags.Blocks.GREAT_WOOD_LOG).add(ModBlocks.GREAT_WOOD_LOG.get());
     }
 }
