@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "thaumaturgyreborn:block/great_wood_log_top",
+    "side": "thaumaturgyreborn:block/great_wood_log"
+  }
+}
