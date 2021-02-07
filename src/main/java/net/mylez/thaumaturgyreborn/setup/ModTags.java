@@ -28,6 +28,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> ANCIENT_STONE = forge("blocks/ancient_stone");
         public static final ITag.INamedTag<Block> ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
         public static final ITag.INamedTag<Block> GREAT_WOOD_LOG = forge("blocks/great_wood_log");
+        public static final ITag.INamedTag<Block> GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
 
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
@@ -46,6 +47,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE = forge("blocks/ancient_stone");
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_LOG = forge("blocks/great_wood_log");
+        public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
 
 
         //items
@@ -55,6 +57,7 @@ public class ModTags extends ModItemTagsProvider {
 
         //Tools
         public static final ITag.INamedTag<Item> TOOLITEM_THAUMIUMPICK = forge("thaumiumpick_tooltiem");
+
 
 
         private static ITag.INamedTag<Item> forge(String path) {
