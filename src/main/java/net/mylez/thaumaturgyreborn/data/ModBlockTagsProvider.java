@@ -23,5 +23,6 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         getOrCreateBuilder(ModTags.Blocks.GREAT_WOOD_LOG).add(ModBlocks.GREAT_WOOD_LOG.get());
         getOrCreateBuilder(ModTags.Blocks.GREAT_WOOD_PLANKS).add(ModBlocks.GREAT_WOOD_PLANKS.get());
         getOrCreateBuilder(ModTags.Blocks.SILVER_WOOD_LOG).add(ModBlocks.SILVER_WOOD_LOG.get());
+        getOrCreateBuilder(ModTags.Blocks.SILVER_WOOD_PLANKS).add(ModBlocks.SILVER_WOOD_PLANKS.get());
     }
 }

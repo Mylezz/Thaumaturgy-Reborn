@@ -21,6 +21,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.GREAT_WOOD_LOG.get());
         simpleBlock(ModBlocks.GREAT_WOOD_PLANKS.get());
         simpleBlock(ModBlocks.SILVER_WOOD_LOG.get());
+        simpleBlock(ModBlocks.SILVER_WOOD_PLANKS.get());
 
     }
 }
