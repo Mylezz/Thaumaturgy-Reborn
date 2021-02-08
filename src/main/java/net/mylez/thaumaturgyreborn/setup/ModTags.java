@@ -27,11 +27,14 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> BLOCKS_CRUCIBLE = forge("blocks/crucible");
         public static final ITag.INamedTag<Block> ANCIENT_STONE = forge("blocks/ancient_stone");
         public static final ITag.INamedTag<Block> ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
+        public static final ITag.INamedTag<Block> BLOCKS_ANCIENT_STONE_WALL = forge("blocks/ancient_stone_wall");
+        public static final ITag.INamedTag<Block> BLOCKS_ANCIENT_STONE_BRICK_WALL = forge("blocks/ancient_stone_brick_wall");
         public static final ITag.INamedTag<Block> GREAT_WOOD_LOG = forge("blocks/great_wood_log");
         public static final ITag.INamedTag<Block> GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
         public static final ITag.INamedTag<Block> SILVER_WOOD_LOG = forge("blocks/silver_wood_log");
         public static final ITag.INamedTag<Block> SILVER_WOOD_PLANKS = forge("blocks/silver_wood_planks");
         public static final ITag.INamedTag<Block> BLOCKS_GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
+        public static final ITag.INamedTag<Block> BLOCKS_SILVER_WOOD_STAIRS = forge("blocks/silver_wood_stairs");
 
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
@@ -47,13 +50,16 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Item> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
         public static final ITag.INamedTag<Item> BLOCKS_CRUCIBLE = forge("blocks/crucible");
-        public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE = forge("blocks/ancient_stone");
+        public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE = forge("blocks/ancient_stone_wall");
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
+        public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_WALL = forge("blocks/ancient_stone_wall");
+        public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_BRICK_WALL = forge("blocks/ancient_stone_brick_wall");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_LOG = forge("blocks/great_wood_log");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
         public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_LOG = forge("blocks/silver_wood_log");
         public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_PLANKS = forge("blocks/silver_wood_planks");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
+        public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_STAIRS = forge("blocks/silver_wood_stairs");
 
 
         //items

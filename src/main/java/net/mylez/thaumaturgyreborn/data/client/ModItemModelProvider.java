@@ -21,11 +21,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("crucible_block", modLoc("block/crucible_block"));
         withExistingParent("ancient_stone", modLoc("block/ancient_stone"));
         withExistingParent("ancient_stone_brick", modLoc("block/ancient_stone_brick"));
+        withExistingParent("ancient_stone_wall", modLoc("block/ancient_stone_wall"));
+        withExistingParent("ancient_stone_brick_wall", modLoc("block/ancient_stone_brick_wall"));
         withExistingParent("great_wood_log", modLoc("block/great_wood_log"));
         withExistingParent("great_wood_planks", modLoc("block/great_wood_planks"));
         withExistingParent("silver_wood_log", modLoc("block/silver_wood_log"));
         withExistingParent("silver_wood_planks", modLoc("block/silver_wood_planks"));
         withExistingParent("great_wood_stairs", modLoc("block/great_wood_stairs"));
+        withExistingParent("silver_wood_stairs", modLoc("block/silver_wood_stairs"));
 
 
 
