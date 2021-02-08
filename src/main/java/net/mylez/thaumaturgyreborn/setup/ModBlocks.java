@@ -2,6 +2,14 @@
 
 package net.mylez.thaumaturgyreborn.setup;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.DoorBlock;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.StairsBlock;
+import net.minecraft.block.WallBlock;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -51,8 +59,9 @@ public class ModBlocks {
     //walls
     public static final RegistryObject<Block> ANCIENT_STONE_WALL = register("ancient_stone_wall", () ->
             new WallBlock(Block.Properties.from(ANCIENT_STONE.get())));
+
     public static final RegistryObject<Block> ANCIENT_STONE_BRICK_WALL = register("ancient_stone_brick_wall", () ->
-                    new WallBlock(Block.Properties.from(ANCIENT_STONE_BRICK.get())));
+            new WallBlock(Block.Properties.from(ANCIENT_STONE_BRICK.get())));
 
 
     // CUSTOM BLOCKS - These blocks require custom models
