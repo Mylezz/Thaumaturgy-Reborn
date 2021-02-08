@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_wall",
-  "textures": {
-    "wall": "thaumaturgyreborn:block/ancient_stone"
-  }
-}
