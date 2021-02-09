@@ -24,10 +24,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent("great_wood_log", modLoc("block/great_wood_log"));
         withExistingParent("great_wood_planks", modLoc("block/great_wood_planks"));
-        withExistingParent("silver_wood_log", modLoc("block/silver_wood_log"));
-        withExistingParent("silver_wood_planks", modLoc("block/silver_wood_planks"));
+        withExistingParent("crest_wood_log", modLoc("block/crest_wood_log"));
+        withExistingParent("crest_wood_planks", modLoc("block/crest_wood_planks"));
         withExistingParent("great_wood_stairs", modLoc("block/great_wood_stairs"));
-        withExistingParent("silver_wood_stairs", modLoc("block/silver_wood_stairs"));
+        withExistingParent("crest_wood_stairs", modLoc("block/crest_wood_stairs"));
 
 
 

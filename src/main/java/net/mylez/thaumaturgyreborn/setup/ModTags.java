@@ -31,10 +31,10 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> BLOCKS_ANCIENT_STONE_BRICK_WALL = forge("blocks/ancient_stone_brick_wall");
         public static final ITag.INamedTag<Block> GREAT_WOOD_LOG = forge("blocks/great_wood_log");
         public static final ITag.INamedTag<Block> GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
-        public static final ITag.INamedTag<Block> SILVER_WOOD_LOG = forge("blocks/silver_wood_log");
-        public static final ITag.INamedTag<Block> SILVER_WOOD_PLANKS = forge("blocks/silver_wood_planks");
+        public static final ITag.INamedTag<Block> CREST_WOOD_LOG = forge("blocks/crest_wood_log");
+        public static final ITag.INamedTag<Block> CREST_WOOD_PLANKS = forge("blocks/crest_wood_planks");
         public static final ITag.INamedTag<Block> BLOCKS_GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
-        public static final ITag.INamedTag<Block> BLOCKS_SILVER_WOOD_STAIRS = forge("blocks/silver_wood_stairs");
+        public static final ITag.INamedTag<Block> BLOCKS_CREST_WOOD_STAIRS = forge("blocks/crest_wood_stairs");
 
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
@@ -56,10 +56,10 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_BRICK_WALL = forge("blocks/ancient_stone_brick_wall");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_LOG = forge("blocks/great_wood_log");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_PLANKS = forge("blocks/great_wood_planks");
-        public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_LOG = forge("blocks/silver_wood_log");
-        public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_PLANKS = forge("blocks/silver_wood_planks");
+        public static final ITag.INamedTag<Item> BLOCKS_CREST_WOOD_LOG = forge("blocks/crest_wood_log");
+        public static final ITag.INamedTag<Item> BLOCKS_CREST_WOOD_PLANKS = forge("blocks/crest_wood_planks");
         public static final ITag.INamedTag<Item> BLOCKS_GREAT_WOOD_STAIRS = forge("blocks/great_wood_stairs");
-        public static final ITag.INamedTag<Item> BLOCKS_SILVER_WOOD_STAIRS = forge("blocks/silver_wood_stairs");
+        public static final ITag.INamedTag<Item> BLOCKS_CREST_WOOD_STAIRS = forge("blocks/crest_wood_stairs");
 
 
         //items

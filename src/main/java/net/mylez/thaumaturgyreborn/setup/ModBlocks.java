@@ -42,9 +42,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> GREAT_WOOD_PLANKS = register("great_wood_planks", () ->
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> SILVER_WOOD_LOG = register("silver_wood_log", () ->
+    public static final RegistryObject<Block> CREST_WOOD_LOG = register("crest_wood_log", () ->
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> SILVER_WOOD_PLANKS = register("silver_wood_planks", () ->
+    public static final RegistryObject<Block> CREST_WOOD_PLANKS = register("crest_wood_planks", () ->
             new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.WOOD)));
 
 
@@ -53,8 +53,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GREAT_WOOD_STAIRS = register("great_wood_stairs", () ->
             new StairsBlock(() -> GREAT_WOOD_PLANKS.get().getDefaultState(), Block.Properties.from(GREAT_WOOD_PLANKS.get())));
-    public static final RegistryObject<Block> SILVER_WOOD_STAIRS = register("silver_wood_stairs", () ->
-            new StairsBlock(() -> SILVER_WOOD_PLANKS.get().getDefaultState(), Block.Properties.from(SILVER_WOOD_PLANKS.get())));
+    public static final RegistryObject<Block> CREST_WOOD_STAIRS = register("crest_wood_stairs", () ->
+            new StairsBlock(() -> CREST_WOOD_PLANKS.get().getDefaultState(), Block.Properties.from(CREST_WOOD_PLANKS.get())));
 
     //walls
     public static final RegistryObject<Block> ANCIENT_STONE_WALL = register("ancient_stone_wall", () ->

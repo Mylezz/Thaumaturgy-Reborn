@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "thaumaturgyreborn:block/silver_wood_planks",
-    "top": "thaumaturgyreborn:block/silver_wood_planks",
-    "side": "thaumaturgyreborn:block/silver_wood_planks"
-  }
-}
