@@ -12,6 +12,7 @@ import net.minecraft.world.IBlockReader;
 import java.util.stream.Stream;
 
 public class VizCrystalAqua extends BaseHorizontalBlockVizCrystalAqua {
+    // MAKE THE SHAPE VARIABLE HAVE THE CLASS NAME!!!!!
 
     private static final VoxelShape SHAPEAquaCrystal = Stream.of(
             Block.makeCuboidShape(6, -0.40000000000000036, 6, 10, 8.5, 10),

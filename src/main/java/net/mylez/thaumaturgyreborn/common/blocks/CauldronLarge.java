@@ -12,7 +12,7 @@ import net.minecraft.world.IBlockReader;
 import java.util.stream.Stream;
 
 public class CauldronLarge extends BaseHorizontalBlockCauldronLarge {
-
+// MAKE THE SHAPE VARIABLE HAVE THE CLASS NAME!!!!!
     private static final VoxelShape SHAPECauldronLarge = Stream.of(
             Block.makeCuboidShape(2, 1, 2, 14, 2, 14),
             Block.makeCuboidShape(3, 1, 14, 13, 2, 15),

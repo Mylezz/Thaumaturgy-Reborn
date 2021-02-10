@@ -16,6 +16,7 @@ import java.util.HashMap;
 import java.util.stream.Stream;
 
 public class CrucibleBlock extends BaseHorizontalBlock {
+    // MAKE THE SHAPE VARIABLE HAVE THE CLASS NAME!!!!!
 
     private static final VoxelShape SHAPECrucibleBlock = Stream.of(
             Block.makeCuboidShape(0, 3, 0, 2, 16, 16),
