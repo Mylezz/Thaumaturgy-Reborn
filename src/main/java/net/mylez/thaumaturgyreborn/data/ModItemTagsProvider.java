@@ -27,6 +27,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         //crucible
         copy(ModTags.Blocks.BLOCKS_CRUCIBLE, ModTags.Items.BLOCKS_CRUCIBLE);
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
+        copy(ModTags.Blocks.BLOCKS_CAULDRON_LARGE, ModTags.Items.BLOCKS_CAULDRON_LARGE);
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
 
         //blocks
         copy(ModTags.Blocks.ANCIENT_STONE, ModTags.Items.BLOCKS_ANCIENT_STONE); // Ancient Stone

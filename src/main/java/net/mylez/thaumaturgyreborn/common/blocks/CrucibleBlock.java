@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 public class CrucibleBlock extends BaseHorizontalBlock {
 
-    private static final VoxelShape SHAPE = Stream.of(
+    private static final VoxelShape SHAPECrucibleBlock = Stream.of(
             Block.makeCuboidShape(0, 3, 0, 2, 16, 16),
             Block.makeCuboidShape(2, 3, 2, 14, 3, 14),
             Block.makeCuboidShape(14, 3, 0, 16, 16, 16),
@@ -37,7 +37,7 @@ public class CrucibleBlock extends BaseHorizontalBlock {
 
     public CrucibleBlock(Properties properties) {
         super(properties);
-        runCalculation(SHAPE);
+        runCalculation(SHAPECrucibleBlock);
     }
     @SuppressWarnings("deprecation")
     @Override

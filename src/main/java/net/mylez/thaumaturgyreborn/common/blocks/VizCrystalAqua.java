@@ -11,9 +11,9 @@ import net.minecraft.world.IBlockReader;
 
 import java.util.stream.Stream;
 
-public class VizCrystalAqua extends BaseHorizontalBlock {
+public class VizCrystalAqua extends BaseHorizontalBlockVizCrystalAqua {
 
-    private static final VoxelShape SHAPE = Stream.of(
+    private static final VoxelShape SHAPEAquaCrystal = Stream.of(
             Block.makeCuboidShape(6, -0.40000000000000036, 6, 10, 8.5, 10),
             Block.makeCuboidShape(12, 0, 6, 16, 8.5, 10),
             Block.makeCuboidShape(6, 1.8147960265184864, 1.870936367305374, 10, 10.514796026518486, 5.870936367305374),
@@ -48,7 +48,7 @@ public class VizCrystalAqua extends BaseHorizontalBlock {
 
     public VizCrystalAqua(Properties properties) {
         super(properties);
-        runCalculation(SHAPE);
+        runCalculation(SHAPEAquaCrystal);
     }
     @SuppressWarnings("deprecation")
     @Override
