@@ -25,6 +25,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Block> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
         public static final ITag.INamedTag<Block> BLOCKS_CRUCIBLE = forge("blocks/crucible");
+        public static final ITag.INamedTag<Block> BLOCKS_VIZ_CRYSTAL_AQUA = forge("blocks/viz_crystal_aqua");
         public static final ITag.INamedTag<Block> ANCIENT_STONE = forge("blocks/ancient_stone");
         public static final ITag.INamedTag<Block> ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
         public static final ITag.INamedTag<Block> BLOCKS_ANCIENT_STONE_WALL = forge("blocks/ancient_stone_wall");
@@ -50,6 +51,7 @@ public class ModTags extends ModItemTagsProvider {
         public static final ITag.INamedTag<Item> ORES_THAUMIUM = forge("ores/thaumium");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_THAUMIUM = forge("storage_blocks/thaumium");
         public static final ITag.INamedTag<Item> BLOCKS_CRUCIBLE = forge("blocks/crucible");
+        public static final ITag.INamedTag<Item> BLOCKS_VIZ_CRYSTAL_AQUA = forge("blocks/viz_crystal_aqua");
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE = forge("blocks/ancient_stone_wall");
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_BRICK = forge("blocks/ancient_stone_brick");
         public static final ITag.INamedTag<Item> BLOCKS_ANCIENT_STONE_WALL = forge("blocks/ancient_stone_wall");

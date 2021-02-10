@@ -28,6 +28,7 @@ ff05adf7df776f2d6265c18c21a475e738d46bf5 assets/thaumaturgyreborn/models/item/gr
 f6b3226217ce73fc8ba4a47e0dffb552bf069485 assets/thaumaturgyreborn/models/item/thaumium_ingot.json
 aa758ba143b52ca64c50f501e714557ba6846a77 assets/thaumaturgyreborn/models/item/thaumium_nugget.json
 476725f5986ce1b5511706c1e37d41c58f0b36aa assets/thaumaturgyreborn/models/item/thaumium_ore.json
+c86aaea7454202c2be7d5fd0e407c38381a958b1 assets/thaumaturgyreborn/models/item/viz_crystal_aqua.json
 5eaf8843e2e29c88db4680923435c0a2de14f558 data/forge/tags/blocks/blocks/ancient_stone.json
 efaee75689462d6bfafdd3b5e234e3f5148bbca2 data/forge/tags/blocks/blocks/ancient_stone_brick.json
 84aa1fbe85fbe33f6f123649d661958dbe484b49 data/forge/tags/blocks/blocks/crest_wood_log.json
@@ -47,6 +48,7 @@ efaee75689462d6bfafdd3b5e234e3f5148bbca2 data/forge/tags/items/blocks/ancient_st
 b0d45b61d3520555b49159a10be6f9f70636ab6b data/forge/tags/items/blocks/great_wood_log.json
 c3383f6459522a24831ec87f57162bbc59c1317c data/forge/tags/items/blocks/great_wood_planks.json
 74700d556ca80c7a1db5fd4efb09c3ddb26cad66 data/forge/tags/items/blocks/great_wood_stairs.json
+74700d556ca80c7a1db5fd4efb09c3ddb26cad66 data/forge/tags/items/blocks/viz_crystal_aqua.json
 b1c0642071204d69a553574a65270a2cf9926a7d data/forge/tags/items/ingots.json
 59f7a8f5f15668ce443708deed362806c9ab2ff1 data/forge/tags/items/ingots/lordpopo.json
 a95600b89a40b60b59982ee2df76186335cb862e data/forge/tags/items/ingots/thaumium.json

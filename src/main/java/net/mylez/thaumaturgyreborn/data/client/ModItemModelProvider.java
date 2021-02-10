@@ -19,6 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("thaumium_block", modLoc("block/thaumium_block"));
         withExistingParent("thaumium_ore", modLoc("block/thaumium_ore"));
         withExistingParent("crucible_block", modLoc("block/crucible_block"));
+        withExistingParent("viz_crystal_aqua", modLoc("block/viz_crystal_aqua"));
         withExistingParent("ancient_stone", modLoc("block/ancient_stone"));
         withExistingParent("ancient_stone_brick", modLoc("block/ancient_stone_brick"));
 

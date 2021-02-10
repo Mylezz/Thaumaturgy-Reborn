@@ -3,21 +3,16 @@
 package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.DoorBlock;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.mylez.thaumaturgyreborn.common.blocks.CrucibleBlock;
-import net.mylez.thaumaturgyreborn.common.blocks.GreatWoodStairs;
+import net.mylez.thaumaturgyreborn.common.blocks.VizCrystalAqua;
 
 import java.util.function.Supplier;
 
@@ -67,6 +62,10 @@ public class ModBlocks {
     // CUSTOM BLOCKS - These blocks require custom models
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+    // crystals
+    public static final RegistryObject<VizCrystalAqua> VIZ_CRYSTAL_AQUA = register("viz_crystal_aqua", () ->
+            new VizCrystalAqua(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(1, 10).harvestLevel(1).sound(SoundType.GLASS)));
+
 
 
 

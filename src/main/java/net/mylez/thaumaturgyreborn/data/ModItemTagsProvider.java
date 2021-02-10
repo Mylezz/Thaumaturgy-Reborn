@@ -46,6 +46,12 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
         copy(ModTags.Blocks.CREST_WOOD_PLANKS, ModTags.Items.BLOCKS_CREST_WOOD_PLANKS); // CREST Wood Planks - REMEMBER TO CHANGE TO WOOD ITEM IS STONE FOR PLACE HOLDER
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
+        copy(ModTags.Blocks.BLOCKS_VIZ_CRYSTAL_AQUA, ModTags.Items.BLOCKS_VIZ_CRYSTAL_AQUA);
+        copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
+
+
         //stairs
         copy(ModTags.Blocks.BLOCKS_GREAT_WOOD_STAIRS, ModTags.Items.BLOCKS_GREAT_WOOD_STAIRS);
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
@@ -59,6 +65,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
         copy(ModTags.Blocks.BLOCKS_ANCIENT_STONE_BRICK_WALL, ModTags.Items.BLOCKS_ANCIENT_STONE_BRICK_WALL); // Ancient Stone Brick
         copy(Tags.Blocks.STONE, Tags.Items.STONE);
+
 
 
         //ingots

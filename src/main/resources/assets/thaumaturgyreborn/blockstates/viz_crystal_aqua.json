@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "thaumaturgyreborn:block/viz_crystal_aqua"
+		},
+		"facing=south": {
+			"model": "thaumaturgyreborn:block/viz_crystal_aqua",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "thaumaturgyreborn:block/viz_crystal_aqua",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "thaumaturgyreborn:block/viz_crystal_aqua",
+			"y": 90
+		}
+	}
+}

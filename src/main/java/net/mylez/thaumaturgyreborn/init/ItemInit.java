@@ -16,7 +16,11 @@ public final class ItemInit {
             DeferredRegister.create(ForgeRegistries.ITEMS, ThaumaturgyReborn.MOD_ID);
     //blocks
     public static final RegistryObject<BlockItem> CRUCIBLE_BLOCK = ITEMS.register("crucible_block",
-                    () -> new BlockItem(BlockInit.CRUCIBLE_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+            () -> new BlockItem(BlockInit.CRUCIBLE_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
+    public static final RegistryObject<BlockItem> VIZ_CRYSTAL_AQUA = ITEMS.register("viz_crystal_aqua",
+            () -> new BlockItem(BlockInit.VIZ_CRYSTAL_AQUA.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
 
 
     //Picks
