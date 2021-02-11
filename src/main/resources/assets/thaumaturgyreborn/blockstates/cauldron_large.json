@@ -11,12 +11,12 @@
 		},
 		"facing=west": {
 			"model": "thaumaturgyreborn:block/cauldron_large",
-			"y": 90
+			"y": 180
 
 		},
 		"facing=east": {
 			"model": "thaumaturgyreborn:block/cauldron_large",
-			"y": 90
+			"y": 180
 
 		}
 	}

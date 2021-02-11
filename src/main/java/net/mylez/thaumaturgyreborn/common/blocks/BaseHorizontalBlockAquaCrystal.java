@@ -18,12 +18,12 @@ import javax.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BaseHorizontalBlockVizCrystalAqua extends Block {
+public class BaseHorizontalBlockAquaCrystal extends Block {
 
     protected static final Map<Direction, VoxelShape> SHAPES = new HashMap<Direction, VoxelShape>();
     public static final DirectionProperty HORIZONTAL_FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public BaseHorizontalBlockVizCrystalAqua(Properties properties) {
+    public BaseHorizontalBlockAquaCrystal(Properties properties) {
         super(properties);
         this.setDefaultState(this.stateContainer.getBaseState().with(HORIZONTAL_FACING, Direction.NORTH));
 

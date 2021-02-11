@@ -1,4 +1,4 @@
-package net.mylez.thaumaturgyreborn.init;
+package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -8,12 +8,12 @@ import net.mylez.thaumaturgyreborn.setup.ModItems;
 import javax.annotation.Nonnull;
 import java.util.function.Supplier;
 
-public final class ModTabGroups
+public final class CreativeModTabGroups
     //CHANGE THAUMIUM_INGOT to book when finsihed with making it
 {
     public static final ItemGroup MOD_ITEM_GROUP =
-            new ModTabGroup(ThaumaturgyReborn.MOD_ID, () -> new ItemStack(ModItems.THAUMIUM_INGOT.get()));
-    public static final class ModTabGroup extends ItemGroup
+            new CreativeModTabGroup(ThaumaturgyReborn.MOD_ID, () -> new ItemStack(ModItems.THAUMIUM_INGOT.get()));
+    public static final class CreativeModTabGroup extends ItemGroup
     {
         @Nonnull
         private final Supplier<ItemStack> iconSupplier;
@@ -22,7 +22,7 @@ public final class ModTabGroups
          * @param name  String: mod id
          * @param iconSupplier
          */
-        public ModTabGroup(@Nonnull final String name, @Nonnull final Supplier<ItemStack> iconSupplier)
+        public CreativeModTabGroup(@Nonnull final String name, @Nonnull final Supplier<ItemStack> iconSupplier)
         {
             super(name);
             this.iconSupplier = iconSupplier;
@@ -34,6 +34,6 @@ public final class ModTabGroups
             return iconSupplier.get();
         }
 
-    } // end ModTabGroup()
+    } // end CreativeModTabGroup()
 
-}  // end class ModTabGroup
+}  // end class CreativeModTabGroup

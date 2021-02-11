@@ -17,7 +17,7 @@ import net.mylez.thaumaturgyreborn.common.blocks.VizCrystalAqua;
 
 import java.util.function.Supplier;
 
-import static net.mylez.thaumaturgyreborn.init.ModTabGroups.MOD_ITEM_GROUP;
+import static net.mylez.thaumaturgyreborn.setup.CreativeModTabGroups.MOD_ITEM_GROUP;
 
 public class ModBlocks {
 
@@ -63,8 +63,10 @@ public class ModBlocks {
     // CUSTOM BLOCKS - These blocks require custom models
     public static final RegistryObject<CrucibleBlock> CRUCIBLE_BLOCK = register("crucible_block", () ->
             new CrucibleBlock(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+
     public static final RegistryObject<CauldronLarge> CAULDRON_LARGE = register("cauldron_large", () ->
             new CauldronLarge(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3, 10).harvestLevel(2).sound(SoundType.METAL)));
+
     // crystals
     public static final RegistryObject<VizCrystalAqua> VIZ_CRYSTAL_AQUA = register("viz_crystal_aqua", () ->
             new VizCrystalAqua(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(1, 10).harvestLevel(1).sound(SoundType.GLASS)));

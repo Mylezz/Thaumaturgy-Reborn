@@ -6,7 +6,6 @@ import net.minecraft.data.ItemTagsProvider;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
-import net.mylez.thaumaturgyreborn.init.ModTabGroups;
 import net.mylez.thaumaturgyreborn.setup.ModItems;
 import net.mylez.thaumaturgyreborn.setup.ModTags;
 

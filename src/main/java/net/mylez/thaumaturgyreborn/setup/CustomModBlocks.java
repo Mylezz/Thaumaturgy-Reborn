@@ -1,4 +1,4 @@
-package net.mylez.thaumaturgyreborn.init;
+package net.mylez.thaumaturgyreborn.setup;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -14,7 +14,7 @@ import net.mylez.thaumaturgyreborn.common.blocks.CrucibleBlock;
 import net.mylez.thaumaturgyreborn.common.blocks.GreatWoodStairs;
 import net.mylez.thaumaturgyreborn.common.blocks.VizCrystalAqua;
 
-public class BlockInit {
+public class CustomModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             ThaumaturgyReborn.MOD_ID);
 

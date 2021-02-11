@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mylez.thaumaturgyreborn.ThaumaturgyReborn;
 
-import static net.mylez.thaumaturgyreborn.init.ItemInit.TOOLITEM;
+import static net.mylez.thaumaturgyreborn.setup.CustomModItems.TOOLITEM;
 
 
 public class Registration {
